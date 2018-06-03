@@ -19,7 +19,7 @@ cmpWeight a b = compare (weight a) (weight b)
 -- Builds sequences of 4 colors out of 6 possible colors. 
 colors :: [String]
 colors = 
-    mix (chars 6) 4
+    mix (chars 6) 6
     where
       chars' = map chr [97..122] 
       chars i = take i chars'
