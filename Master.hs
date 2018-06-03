@@ -2,7 +2,7 @@ module Master where
 import Data.List
 import Colors
 
-
+--ABC
 check :: String -> String -> (Int,Int)
 check code guess = 
     (i, j-i)
